@@ -1,0 +1,13 @@
+afk-timeout-seconds: 300       # через сколько секунд бездействия включать AFK
+check-interval-ticks: 100      # период проверки (5 сек при 20 TPS)
+team-name: "AFK"               # имя команды в скорборде (для префикса над ником)
+prefix-text: "[AFK] "          # текст префикса
+show:
+  in-tab: true                 # показывать [AFK] в таб-листе
+  above-name: true             # префикс [AFK] над ником (scoreboard team)
+broadcast:
+  on-enter: true               # объявлять, что игрок ушёл в AFK
+  on-exit: true                # объявлять, что игрок вернулся
+placeholders:
+  suffix: " &7[AFK]"   # удобно прямо для TAB tabsuffix
+  tag: "&7[AFK]"       # если нужен просто тег без пробела

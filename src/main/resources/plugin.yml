@@ -1,0 +1,18 @@
+name: maylanAFK
+version: 0.2.0
+main: ru.maylan.AfkPlugin
+api-version: '1.21.11'
+description: Показывает статус AFK игроков (через PlaceholderAPI)
+
+softdepend: [PlaceholderAPI]
+
+commands:
+  afk:
+    description: Переключить статус AFK
+    usage: /afk
+    permission: maylanafk.afk
+
+permissions:
+  maylanafk.afk:
+    description: Разрешает использовать /afk
+    default: true
